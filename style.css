@@ -103,3 +103,46 @@ body {
     width:30px;
     display: none;
 }
+
+/* welcome */
+
+.content-welcome {
+    background-color: #292E36;
+    display: flex;
+    padding: 20px;
+}
+.welcome-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome-text {
+    font-size: 10vh;
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome-description {
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.welcome-button {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid #E1B168;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E1B168;
+    padding: 15px;
+    margin-top: 20px;
+}
+.welcome-button:hover {
+    background-color: #E1B168;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.welcome-image img{
+    height: 700px;
+}
+

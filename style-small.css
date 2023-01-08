@@ -21,3 +21,16 @@
 .lines{ 
     display: block;
 }
+
+.welcome-text {
+    text-align: center;
+}
+.welcome-description {
+    text-align: center;
+}
+.welcome-info {
+    align-items: center;
+}
+.welcome-image {
+    display: none;
+}
