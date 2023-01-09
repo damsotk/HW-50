@@ -67,3 +67,22 @@
 .proof-st {
     text-align: center;
 }
+
+/* menu  */
+
+.menu {
+    flex-direction: column;
+    padding: 5px;
+}
+.special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.special {
+    width: 100%;
+}
+.menu-price {
+    width: 100%;
+}
