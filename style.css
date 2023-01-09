@@ -178,3 +178,39 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* career  */
+
+.career {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 50px;
+}
+.career-flex {
+    display: flex;
+}
+.inside {
+    margin-right: 20px;
+}
+.inside img {
+    max-width: 100%;
+    height: auto;
+}
+.proof-bt {
+    font-size: 2.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+.proof-st {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+.proof-two {
+    display: flex;
+    justify-content: space-between;
+}
+.signature {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+

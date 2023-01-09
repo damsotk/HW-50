@@ -44,3 +44,26 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+
+
+.career-flex {
+    flex-wrap: wrap;
+}
+.inside {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.career {
+    padding: 0;
+}
+.inside {
+    margin: 0;
+}
+.proof-bt {
+    text-align: center;
+}
+.proof-st {
+    text-align: center;
+}
