@@ -214,3 +214,41 @@ body {
     margin-left: 15px;
 }
 
+/* menu */
+
+.menu {
+    display: flex;
+    padding: 70px;
+}
+.special {
+    width: 40%;
+}
+.menu-price {
+    width: 60%;
+}
+.bt-special {
+    font-size: 1.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.st-special {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-image {
+    height: 550px;
+    margin-top: 20px;
+}
+.menu-button {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid #E1B168;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E1B168;
+    padding: 15px;
+    margin-top: 20px;
+}
+.menu-button:hover {
+    background-color: #E1B168;
+    color: white;
+}
