@@ -22,6 +22,9 @@
     display: block;
 }
 
+.content-welcome {
+    padding-bottom: 10px;
+}
 .welcome-text {
     text-align: center;
 }
@@ -33,4 +36,11 @@
 }
 .welcome-image {
     display: none;
+}
+
+.info-for-client {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }

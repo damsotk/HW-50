@@ -110,6 +110,7 @@ body {
     background-color: #292E36;
     display: flex;
     padding: 20px;
+    padding-bottom: 0px;
 }
 .welcome-info {
     display: flex;
@@ -144,5 +145,36 @@ body {
 }
 .welcome-image img{
     height: 700px;
+}
+
+/* info */
+.info {
+    background: #FFF8F5;
+}
+.info-for-client {
+    display: flex;
+    justify-content: space-around;
+}
+.info-card {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.card-image img {
+    height: 60px;
+}
+.card-text {
+    color: #292E36;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.card-general-text {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-small-text {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
