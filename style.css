@@ -607,3 +607,9 @@ input:focus {
     cursor: pointer;
     color: #000;
 }
+
+.footer-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
