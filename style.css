@@ -341,15 +341,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
+
 .user-review {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 .user-card {
     margin-top: 20px;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -397,32 +400,38 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
 }
+
 .page-all {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
+
 .page-bt {
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
 }
+
 .page-st {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
     text-align: center;
 }
+
 .discount {
     display: flex;
     margin-top: 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .discount div img {
     width: 100%;
     height: auto;
 }
+
 .page p {
     width: 0px;
 }
@@ -431,34 +440,42 @@ a:hover {
 .popular-card {
     margin-top: 20px;
 }
+
 .popular-flex {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
 }
+
 .popular-price {
     display: flex;
     justify-content: space-between;
 }
-.popular-image img{
+
+.popular-image img {
     height: 300px;
 }
+
 .popular-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.4em;
 }
+
 .popular-price {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
+
 .popular-description {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .popular-btn {
     display: flex;
     justify-content: center;
 }
+
 .popular-button {
     display: flex;
     width: 200px;
@@ -469,8 +486,61 @@ a:hover {
     padding: 15px;
     margin-top: 20px;
 }
+
 .popular-button:hover {
     background-color: #E1B168;
     color: white;
     cursor: pointer;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.blog-c-img {
+    position: relative;
+    width: 100%;
+}
+.blog-c-img img {
+    width: 100%;
+    height: auto;
+}
+.blog-c-img:hover .blog-button {
+    opacity: 1;
+    cursor: pointer;
+    transition: 2s;
+}
+.blog-c-img:hover img{
+    filter: brightness(40%)
+}
+.blog-button {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    background-color:  #E1B168;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dark;
+    padding: 15px;
+    margin-top: 20px;
+    opacity: 0;
+}
+.blog-button:hover {
+    background-color: white;
+    transition: none;
+}
+.blog-bt {
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.blog-st {
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
